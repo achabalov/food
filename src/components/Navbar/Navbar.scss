@@ -1,0 +1,95 @@
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px 15px 50px;
+    color: gray;
+    min-width: 650px;
+
+    &__section {
+        display: flex;
+        flex-flow: row nowrap;
+
+        &__item {
+            display: flex;
+            flex-flow: row nowrap;
+
+            &__logo {
+                display: flex;
+                        align-items: center;
+                & a {
+                    
+                    & img {
+                        
+                        width: 200px;
+                    }
+                }
+            }
+
+            &__info {
+                display: flex;
+                flex-flow: column;
+
+                &__contact {
+                    display: flex;
+                    flex-flow: row;
+                    margin: 0 20px;
+
+                    &__city {
+                        font-size: 1.2rem;
+                        
+                    }
+                    &__phone {
+                        display: flex;
+                        flex-flow: row;
+                        align-items: flex-end;
+                        margin-left: 10px;
+                    }
+                    &__phone a{
+                        color: gray;
+                        outline: none;
+                        border: none;
+                        text-decoration: none;
+                        min-width: 130px;
+                    }
+                }
+                &__lk {
+                    display: flex;
+                    justify-content: flex-start;
+                    margin: 0 20px;
+                }
+            }
+        }
+        &__about {
+            cursor: pointer;
+            font-size: 0.9rem;
+            &__company {
+                display: flex;
+                flex-flow: row;
+                .company {
+                    margin-right: 10px;
+                }
+            }
+        }
+        .basket  {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            img {
+                width: 30px;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 900px) {
+    .navbar__section__item__logo {
+        display: none;
+    }
+}
