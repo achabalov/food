@@ -2,6 +2,16 @@
     display: flex;
     flex-flow: row;
     width: 100vw;
-    padding: 0 15px;
+    padding: 0 30px;
     margin: 0 auto;
+}
+
+@media screen and(max-width: 800px) {
+    .main__category {
+        flex-flow: row wrap;
+        & > * {
+            width: calc(100% / 2);
+            align-items: center;
+        }
+    }
 }

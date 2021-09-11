@@ -1,16 +1,18 @@
 import React from 'react';
 import catalogRoll from '../API/mainPage.json'
-import Sets from '../Category/Sets';
+import AllTypeRolls from '../Category/AllTypeRolls/AllTypeRolls';
+import OtherEat from '../Category/OtherEat/OtherEat';
+import Sets from '../Category/Sets/Sets';
+import WokConstructor from '../Category/WokConstuctor/WokConstructor';
 import './MainMenu.scss'
 
 const MainMenu: React.FC = () => {
-    console.log(catalogRoll);
     return (
         <main className='main__category'>
             <Sets />
-            <Sets />
-            <Sets />
-            <Sets />
+            <AllTypeRolls />
+            <WokConstructor />
+            <OtherEat />
         </main>
     )
 }
