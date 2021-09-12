@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/food/static/css/main.577b48b3.chunk.css",
+    "main.js": "/food/static/js/main.37ee1ea6.chunk.js",
+    "main.js.map": "/food/static/js/main.37ee1ea6.chunk.js.map",
+    "runtime-main.js": "/food/static/js/runtime-main.aca0f0e4.js",
+    "runtime-main.js.map": "/food/static/js/runtime-main.aca0f0e4.js.map",
+    "static/js/2.cdf81577.chunk.js": "/food/static/js/2.cdf81577.chunk.js",
+    "static/js/2.cdf81577.chunk.js.map": "/food/static/js/2.cdf81577.chunk.js.map",
+    "index.html": "/food/index.html",
+    "static/css/main.577b48b3.chunk.css.map": "/food/static/css/main.577b48b3.chunk.css.map",
+    "static/js/2.cdf81577.chunk.js.LICENSE.txt": "/food/static/js/2.cdf81577.chunk.js.LICENSE.txt",
+    "static/media/baked_rolls_desktop4.ad3053ee.png": "/food/static/media/baked_rolls_desktop4.ad3053ee.png",
+    "static/media/basket.304b7f8f.svg": "/food/static/media/basket.304b7f8f.svg",
+    "static/media/beverages_desktop.2ef315a4.png": "/food/static/media/beverages_desktop.2ef315a4.png",
+    "static/media/fried_rolls_desktop3.ac2fc0c3.png": "/food/static/media/fried_rolls_desktop3.ac2fc0c3.png",
+    "static/media/rolls_desktop1.795cb214.png": "/food/static/media/rolls_desktop1.795cb214.png",
+    "static/media/sets_tablet.a00c5584.png": "/food/static/media/sets_tablet.a00c5584.png",
+    "static/media/soups_desktop.f27679bc.png": "/food/static/media/soups_desktop.f27679bc.png",
+    "static/media/sushi_desktop2.8843e1d2.png": "/food/static/media/sushi_desktop2.8843e1d2.png",
+    "static/media/wok_desktop.d2761cf5.png": "/food/static/media/wok_desktop.d2761cf5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aca0f0e4.js",
+    "static/js/2.cdf81577.chunk.js",
+    "static/css/main.577b48b3.chunk.css",
+    "static/js/main.37ee1ea6.chunk.js"
+  ]
+}
