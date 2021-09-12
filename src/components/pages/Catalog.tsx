@@ -14,7 +14,7 @@ const Catalog: React.FC = () => {
         {rolls.map(roll => 
             <Rolls key={roll.title} rolls={roll}/>
             )}
-    </div>: 'Данные не подгружены'}
+    </div>: <Redirect to='/' />}
         </>
     )
 }
