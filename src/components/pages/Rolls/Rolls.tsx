@@ -5,14 +5,13 @@ interface RollsItem {
     rolls: any
 }
 
-
-
 const Rolls = ({rolls}: RollsItem) => {
-
+    console.log(rolls);
+    
     return (
         <div className={`card__rolle ${rolls?.color}`}>
             <div className='card__rolle__image'>
-                <img src={rolls?.image} alt="" />
+                <img src={rolls.image} alt="" />
             </div>
             <div className={`card__rolle__character ${rolls?.color}`}>
                 <div className='card__rolle__title'>
