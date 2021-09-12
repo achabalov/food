@@ -1,0 +1,54 @@
+.allrolls {
+    position: relative;
+    background-color: #f32b2b;
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: column nowrap;
+    width: calc(100% / 4);
+    max-height: 85vh;
+    height: 70vh;
+    overflow: hidden;
+    cursor: pointer;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0 auto;
+    .left img,.right img{
+        transition: transform 1s ease-in-out;
+    }
+    &__item {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        height: calc(100% / 4);
+        transition: transform 1s ease-in-out;
+    
+        &:first-child &__left {
+            left: -22%;
+        }
+        &__left {
+            position: relative;
+            left: -20%;
+        }
+        &__right {
+            position: relative;
+            right: -32%;
+            transition: transform 1s ease-in-out;
+        }
+        
+        &__title {
+            display: flex;
+            align-items: center;
+        }
+    }
+    
+    & img {
+        width: 150px;
+    }
+    .left:hover img{
+        transform: translateX(60px);
+    }
+    .right:hover img {
+        transform: translateX(-70px);
+    }
+}

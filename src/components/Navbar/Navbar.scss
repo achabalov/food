@@ -1,11 +1,15 @@
 .navbar {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 2;
     display: flex;
     flex-flow: row nowrap;
     width: 100vw;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 50px 15px 50px;
+    padding: 15px 30px;
     color: gray;
     min-width: 650px;
 

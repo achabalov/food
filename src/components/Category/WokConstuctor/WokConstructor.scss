@@ -1,0 +1,57 @@
+.wokconstructor {
+    background-color: #fff;
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: calc(100% / 4);
+    max-height: 85vh;
+    height: 70vh;
+    overflow: hidden;
+    cursor: pointer;
+    overflow: hidden;
+    line-height: 1.1;
+
+    &__title {
+        padding-top: 10px;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        padding-left: 20px;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #f32b2b;
+        text-align: left;
+        span {
+            font-size: .9rem;
+        }
+    }
+    &__image {
+        position: relative;
+        left: -40px;
+        transition: transform 1s ease-in-out;
+    }
+    img {
+        width: 400px;
+    }
+
+    &:hover &__image {
+        transform: translateX(40px);
+    }
+}
+
+@media screen and(min-width: 1700px) and (max-width: 2000px){
+    .wokconstructor__image {
+        position: relative;
+        left: -100px;
+        margin-left: -10px;
+    }
+}
+
+@media screen and(min-width: 2000px) and (max-width: 2600px) {
+    .wokconstructor__image {
+        position: relative;
+        left: -150px;
+        margin-left: -10px;
+    }
+}

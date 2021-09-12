@@ -1,0 +1,70 @@
+.card__rolle {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1 auto;
+    width: calc(100% / 3.3);
+    min-width: 370px;
+    max-width: 550px;
+    margin: 20px;
+    line-height: 1.1;
+    cursor: pointer;
+
+    &__image img {
+        width: 190px;
+    }
+
+    &__character {
+        width: 100%;
+        padding: 10px 30px;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    &__title {
+        font-size: 1.3rem;
+        text-align: left;
+    }
+    &__description {
+        font-size: 0.7rem;
+        text-align: left;
+    }
+    &__count {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 0.7rem;
+    }
+    &__buy {
+        padding-top: 40px;
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.3rem;
+        button {
+            padding: 10px;
+            font-size: 1.3rem;
+            margin: 0 10px;
+            background: #eb1f40;
+            color: #fff;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+
+    &.gray {
+        background: #efeff4;
+    }
+
+    &.breeze {
+        background: #8ed8f7;
+    }
+
+    &.pink {
+        background: #ffd8bc;
+
+    }
+
+}

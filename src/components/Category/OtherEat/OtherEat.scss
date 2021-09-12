@@ -1,0 +1,9 @@
+.OtherEat {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: column wrap;
+    width: calc(100% / 4);
+    height: 70vh;
+    overflow: hidden;
+    cursor: pointer;
+}
