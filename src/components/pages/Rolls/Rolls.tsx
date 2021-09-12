@@ -2,14 +2,15 @@ import React from 'react';
 import './Rolls.scss';
 
 interface RollsItem {
-    rolls: any,
-    color?: string,
+    rolls: any
 }
+
+
 
 const Rolls = ({rolls}: RollsItem) => {
 
     return (
-        <div className={`card__rolle ${rolls.color}`}>
+        <div className={`card__rolle ${rolls?.color}`}>
             <div className='card__rolle__image'>
                 <img src={rolls?.image} alt="" />
             </div>
