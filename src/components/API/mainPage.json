@@ -3,7 +3,7 @@
         "title": "Половинки из сложных роллов",
         "description": "собери свой уникальный ролл из двух твоих любимых",
         "color": "gray",
-        "image": "/images/rolls/rolls1.png",
+        "image": "rolls1",
         "count": "2",
         "price": ""
     },
@@ -11,7 +11,7 @@
         "title": "Классические половинки",
         "description": "собери свой уникальный ролл из двух твоих любимых",
         "color": "gray",
-        "image": "/images/rolls/rolls2.png",
+        "image": "rolls2",
         "count": "2",
         "price": ""
     },
@@ -19,7 +19,7 @@
         "title": "Ролл Филадельфия спешл",
         "description": "Лосось, сливочный сыр, кунжут, огурец",
         "color": "breeze",
-        "image": "/images/rolls/rolls3.png",
+        "image": "rolls3",
         "count": "8",
         "price": "205"
     },
@@ -27,7 +27,7 @@
         "title": "Ролл Калифорния с лососем",
         "description": "Лосось, огурец, соус белый, икра масаго красная",
         "color": "pink",
-        "image": "/images/rolls/rolls4.png",
+        "image": "rolls4",
         "count": "8",
         "price": "277"
     },
@@ -35,7 +35,7 @@
         "title": "Ролл Криспи лосось",
         "description": "Лосось в темпуре, сливочный сыр, стружка тунца, огурец, соус унаги, рис, нори",
         "color": "gray",
-        "image": "/images/rolls/rolls5.png",
+        "image": "rolls5",
         "count": "8",
         "price": "239"
     },
@@ -43,7 +43,7 @@
         "title": "Ролл зелёная река",
         "description": "Лосось, сливочный сыр, огурец, укроп",
         "color": "gray",
-        "image": "/images/rolls/rolls6.png",
+        "image": "rolls6",
         "count": "8",
         "price": "199"
     }

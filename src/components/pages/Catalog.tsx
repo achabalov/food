@@ -2,6 +2,7 @@ import React from 'react';
 import Rolls from './Rolls/Rolls';
 import './Catalog.scss';
 import { useTypesSelector } from '../hooks/useTypedSelector';
+import { Redirect } from 'react-router';
 
 const Catalog: React.FC = () => {
 
